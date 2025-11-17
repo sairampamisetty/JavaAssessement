@@ -14,7 +14,8 @@ class child extends parent
     }
 }
 public class OverrideProg {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         child c=new child();
         c.message();
     }
